@@ -97,7 +97,7 @@ Instead of end-of-level bosses, you fight the compiler:
 [domain-specific language]: https://en.wikipedia.org/wiki/Domain-specific_language
 [Turing tarpit]: https://en.wikipedia.org/wiki/Turing_tarpit
 [on general purpose languages]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md
-[if another language handles them bette ]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md#relevance-to-elm
+[if another language handles them better]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md#relevance-to-elm
 
 **TL;DR:** [Unlike Elm][], [Gren][] wants to explore the world outside the browser
 
@@ -115,7 +115,7 @@ Elm's designers outline three excellent points in their official
 Then it veers somewhere inconvenient. They explain how Elm will:
 
 * clearly explain its purpose and current strengths
-* avoid areas outside those [if another language does them better][].
+* avoid areas outside those [if another language handles them better][].
 
 It's a strict policy, but it's also a useful one. It means Elm will
 continue being an excellent frontend language.
@@ -135,7 +135,7 @@ continue being an excellent frontend language.
 > Please [make a PR][] if I got something wrong below.
 > I'm fairly new to both Elm and Gren, so the chances are high.
 
-Gren' community is currently young and small, but it's very passionate. Some of the
+Gren's community is currently young and small, but it's very passionate. Some of the
 available packages already implement features which Elm avoids by design. Even better,
 many of them seem surprisingly mature!
 
