@@ -6,26 +6,25 @@
 [Gren]: https://gren-lang.org/
 [docker-overview]: https://docs.docker.com/guides/docker-overview/
 
-Gren in a box!
+The Gren programming language in a docker container!
 
-To learn about [Gren][], see [What's Gren?](#whats-gren) below.
+
+To learn about the Gren programming language, see [What's Gren?](#whats-gren) below.
 
 ## The Basics
 
-### What?
+### What is this?
 
 Current features include:
 
-- [x] Full in a [Docker][docker-overview] container
-- [ ] Complete & beginner friendly documentation
-
+- [x] Full [Gren][] in a [Docker][docker-overview] container
+- [ ] Beginner-friendly documentation
   - [ ] Persistent state & volumes
   - [ ] Ports & networks
-
 - [ ] Advanced usage guide
 
 
-### How?
+### How do I use it?
 
 [docker-postinstall]: https://docs.docker.com/engine/install/linux-postinstall/
 [gren-learn]: https://gren-lang.org/book/
@@ -35,16 +34,16 @@ Current features include:
 3. [Start learning Gren!](gren-learn)
 
 > [!TIP]
-> On Linux, you'll need to do one of the following:
-> 1. Follow the [post-install steps][docker-postinstall] to enable sudoless `docker` commands
-> 2. Use `sudo` before your `docker` commands
+> On Linux, you may also need to do one of the following:
+> 1. Use `sudo` before your `docker` commands
+> 2. Follow the [post-install steps][docker-postinstall] to enable sudoless `docker` commands
 
 
-### Why?
+### Why did you make it?
 
 [13r0ck]: https://github.com/13r0ck
 
-**TL;DR:** [13r0ck][] got me hooked on [Elm][]'s syntax and [Gren][] freed it from the browser
+**TL;DR:** [13r0ck][] hooked me on Elm's syntax and Gren frees it from frontend
 
 [13r0ck][] has a rare combination of technical, communication, and community
 engagement skills. He suggested I try [Elm][] as an antidote to the Python flaws
@@ -75,7 +74,7 @@ These situations can include:
 
 [Elm]: https://elm-lang.org/
 
-**TL;DR:** [Gren][Gren] is [Elm][Elm]'s younger, more adventurous sibling
+**TL;DR:** Gren is Elm's younger, more adventurous sibling
 
 
 ### How's it like Elm?
@@ -90,60 +89,60 @@ Instead of end-of-level bosses, you fight the compiler:
 * **It's fair:** the errors tell you how to fix your mistakes
 * **It's rewarding:** beating it produces reliable software
 
-### How's it different from Elm?
+### How's Gren different from Elm?
 
-[elm-roadmap]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/roadmap.md
+[Roadmap FAQ]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/roadmap.md
 [See Elm's Roadmap FAQ]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/roadmap.md#can-i-use-elm-on-servers
 [Unlike Elm]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md
 [domain-specific language]: https://en.wikipedia.org/wiki/Domain-specific_language
 [Turing tarpit]: https://en.wikipedia.org/wiki/Turing_tarpit
-[explicitly states]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md#relevance-to-elm
+[on general purpose languages]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md
+[if another language handles them bette ]: https://github.com/elm/projects/blob/0d0f52abb320d1370aa7b6abc7e1007ba4c524ab/notes/on-general-purpose.md#relevance-to-elm
 
 **TL;DR:** [Unlike Elm][], [Gren][] wants to explore the world outside the browser
 
-#### Elm Sticks Close to Home
+#### Elm Sticks Closer to Home
 
-**TL;DR:** [Elm][] wants to stick to being a strong web frontend language
+**TL;DR:** Elm wants to stick to being a strong web frontend language
 
-[Elm][]'s designers outline three excellent points in their official
-[roadmap FAQ][elm-roadmap] and statement [on general purpose languages][explicitly states]:
+Elm's designers outline three excellent points in their official
+[Roadmap FAQ][] and statement [on general purpose languages][]:
 
 1. Languages tend to be great in certain roles
-2. Forcing a language into the wrong role turns it into an agonizing [Turing tarpit][]
+2. Forcing a language into the wrong role turns it into [Turing tarpit][]
 3. Each language is to some degree a [domain-specific language][]
 
-Then they do something inconvenient: they [explicitly state][] how [Elm][] is
-going to avoid areas outside its original purpose whenever another language
-already handles a task better:
+Then it veers somewhere inconvenient. They explain how Elm will:
 
-> I prefer to have a coherent strategy about expanding to other domains. Why expand to another domain? What strengths could Elm bring there? How much work would it be? Should work on web apps slow down for this? What is best for the long-term health of the project? Etc. I also think it is important to clearly inform people what the language is decent at *right now*. That way they do not waste their time on paths we already know that Python or Erlang or C can do better *right now*.
+* clearly explain its purpose and current strengths
+* avoid areas outside those [if another language does them better][].
 
-It's a strict policy, but it's a useful one. It means [Elm][] will continue being an
-excellent frontend language.
+It's a strict policy, but it's also a useful one. It means Elm will
+continue being an excellent frontend language.
 
-#### Gren Wants to Try New Things
+#### Gren Wants to Explore
 
-**TL;DR:** [Gren][] devs love [Elm][]'s types and syntax so much we want them outside the browser
+**TL;DR:** Gren devs love Elm's syntax so much we're freeing it from the browser
 
 [make a PR]: https://github.com/pushfoo/docker-gren/pulls
 [ANSI escape codes]: https://en.wikipedia.org/wiki/ANSI_escape_code
 [rich]: https://github.com/Textualize/rich?tab=readme-ov-file
 [gren-tui]: https://github.com/blaix/gren-tui/tree/main
 [prettynice]: https://prettynice.dev/
-[Only via workarounds]: https://dev.to/eberfreitas/elm-in-the-server-or-anywhere-else-with-promises-5eoj
+[Not as a first-class feature]: https://dev.to/eberfreitas/elm-in-the-server-or-anywhere-else-with-promises-5eoj
 
 > [!NOTE]
 > Please [make a PR][] if I got something wrong below.
-> I'm fairly new to both [Elm][] and [Gren][], so the chances are high.
+> I'm fairly new to both Elm and Gren, so the chances are high.
 
-[Gren][]'s community is currently young and small, but it's very passionate. Some of the
-packages available implement features which [Elm][] avoids by design, and many of them are
-surprisingly mature!
+Gren' community is currently young and small, but it's very passionate. Some of the
+available packages already implement features which Elm avoids by design. Even better,
+many of them seem surprisingly mature!
 
 | Task                         | Exemplary Gren Package  | Does Elm Have an Equivalent?          |
 |------------------------------|-------------------------|---------------------------------------|
-| On-disk File handling        | The `File` core library | Not really, per [Elm's Roadmap FAQ][] |
-| Full-stack Support           | [prettynice][]          | [Only via workarounds][]              |
+| On-disk File handling        | The `File` core library | Not really, per Elm's [Roadmap FAQ][] |
+| Full-stack Support           | [prettynice][]          | [Not as a first-class feature][]      |
 | TUI (Python's [rich][], etc) | [gren-tui][]            | Please [make a PR][] if you know any! |
 
 
@@ -153,8 +152,8 @@ surprisingly mature!
 [gren-html]: https://packages.gren-lang.org/package/icidasset/html-gren/version/4.1.0/overview
 [gren-url]: https://packages.gren-lang.org/package/gren-lang/url/latest/
 
-[Gren][] also offers replacements for many existing [Elm][] packages. Many are forks or
-ports with APIs which remain close or identical to their [Elm][] counterparts. Some may
+Gren also offers replacements for many existing Elm packages. Many are forks or
+ports with APIs which remain close or identical to their Elm counterparts. Some may
 even be by the same author, but I haven't had the time to verify which ones yet.
 
 | Example Task                 | Elm Package      | Gren Alternative | API Similarity[^2] |
@@ -170,13 +169,13 @@ To search for more packages, please see the following:
 * https://packages.gren-lang.org/
 
 
-### A Practical Example: Debian OldStable
+## A Practical Example: Debian OldStable
 
 [DontBreakDebian]: https://wiki.debian.org/DontBreakDebian
 
 **TL;DR:** Docker helps avoid [breaking debian with non-distro packages][DontBreakDebian]
 
-#### The Scenario
+### The Scenario
 
 [OldStable]: https://wiki.debian.org/DebianOldStable
 
@@ -188,7 +187,7 @@ Imagine you need to deploy to a system running Debian, or worse, its
 * The Debian documentation explicitly warns you that third party packages
   [are a common way to break Debian!][DontBreakDebian]DontBreakDebian
 
-#### The Solution
+### The Solution
 
 Using a [Docker container][docker-overview] container saves you the trouble
 of managing package sources, extracting archives, and especially the worst of
