@@ -148,8 +148,9 @@ many of them seem surprisingly mature!
 
 [elm-ansi]: https://package.elm-lang.org/packages/wolfadex/elm-ansi/latest/
 [gren-ansi]: https://packages.gren-lang.org/package/blaix/gren-ansi/version/1.0.0/overview
-[elm-html]: https://package.elm-lang.org/packages/elm/html/latest/
+[elm/html]: https://package.elm-lang.org/packages/elm/html/latest/
 [gren-html]: https://packages.gren-lang.org/package/icidasset/html-gren/version/4.1.0/overview
+[elm/url]: https://package.elm-lang.org/packages/elm/url/latest/
 [gren-url]: https://packages.gren-lang.org/package/gren-lang/url/latest/
 
 Gren also offers replacements for many existing Elm packages. Many are forks or
@@ -158,8 +159,8 @@ even be by the same author, but I haven't had the time to verify which ones yet.
 
 | Example Task                 | Elm Package      | Gren Alternative | API Similarity[^2] |
 |------------------------------|------------------|------------------|--------------------|
-| HTML generation              | [elm-html][]     | [gren-html][]    | Close or identical |
-| URL Parsing                  | [elm-url][]      | [gren-url][]     | Close or identical |
+| HTML generation              | [elm/html][]     | [gren-html][]    | Close or identical |
+| URL Parsing                  | [elm/url][]      | [gren-url][]     | Close or identical |
 | [ANSI escape codes][]        | [elm-ansi][]     | [gren-ansi][]    | Very different     |
 
 
