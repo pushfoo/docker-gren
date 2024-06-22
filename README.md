@@ -186,7 +186,7 @@ Imagine you need to deploy to a system running Debian, or worse, its
 * Packages tend to only merge security patches
 * Feature releases tend to lag years behind the latest
 * The Debian documentation explicitly warns you that third party packages
-  [are a common way to break Debian!][DontBreakDebian]DontBreakDebian
+  [are a common way to break Debian!][DontBreakDebian]
 
 ### The Solution
 
