@@ -128,7 +128,7 @@ continue being an excellent frontend language.
 [ANSI escape codes]: https://en.wikipedia.org/wiki/ANSI_escape_code
 [rich]: https://github.com/Textualize/rich?tab=readme-ov-file
 [gren-tui]: https://github.com/blaix/gren-tui/tree/main
-[FileSystem]: https://packages.gren-lang.org/package/gren-lang/node/latest/module/FileSystem
+[node.FileSystem]: https://packages.gren-lang.org/package/gren-lang/node/latest/module/FileSystem
 
 > [!NOTE]
 > Please [make a PR][] if I got something wrong below.
@@ -140,7 +140,7 @@ many of them seem surprisingly mature!
 
 | Task                         | Exemplary Gren Package  | Does Elm Have an Equivalent?          |
 |------------------------------|-------------------------|---------------------------------------|
-| On-disk File handling        | The node [FileSystem][] | Not really, per Elm's [Roadmap FAQ][] |
+| On-disk File handling        | [node.FileSystem][]     | Not really, per Elm's [Roadmap FAQ][] |
 | TUI (Python's [rich][], etc) | [gren-tui][]            | Please [make a PR][] if you know any! |
 
 
