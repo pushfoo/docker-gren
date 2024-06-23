@@ -114,7 +114,7 @@ Elm's designers outline three excellent points in their official
 
 Then it veers somewhere inconvenient. They explain how Elm will:
 
-* clearly explain its purpose and current strengths
+* stick to its stated purpose and current strengths
 * avoid areas outside those [if another language handles them better][].
 
 It's a strict policy, but it's also a useful one. It means Elm will
@@ -128,8 +128,7 @@ continue being an excellent frontend language.
 [ANSI escape codes]: https://en.wikipedia.org/wiki/ANSI_escape_code
 [rich]: https://github.com/Textualize/rich?tab=readme-ov-file
 [gren-tui]: https://github.com/blaix/gren-tui/tree/main
-[prettynice]: https://prettynice.dev/
-[Not as a first-class feature]: https://dev.to/eberfreitas/elm-in-the-server-or-anywhere-else-with-promises-5eoj
+[FileSystem]: https://packages.gren-lang.org/package/gren-lang/node/latest/module/FileSystem
 
 > [!NOTE]
 > Please [make a PR][] if I got something wrong below.
@@ -141,8 +140,7 @@ many of them seem surprisingly mature!
 
 | Task                         | Exemplary Gren Package  | Does Elm Have an Equivalent?          |
 |------------------------------|-------------------------|---------------------------------------|
-| On-disk File handling        | The `File` core library | Not really, per Elm's [Roadmap FAQ][] |
-| Full-stack Support           | [prettynice][]          | [Not as a first-class feature][]      |
+| On-disk File handling        | The node [FileSystem][] | Not really, per Elm's [Roadmap FAQ][] |
 | TUI (Python's [rich][], etc) | [gren-tui][]            | Please [make a PR][] if you know any! |
 
 
@@ -152,17 +150,18 @@ many of them seem surprisingly mature!
 [gren-html]: https://packages.gren-lang.org/package/icidasset/html-gren/version/4.1.0/overview
 [elm/url]: https://package.elm-lang.org/packages/elm/url/latest/
 [gren-url]: https://packages.gren-lang.org/package/gren-lang/url/latest/
-
+[prettynice]: https://prettynice.dev/
+[elm-pages]: https://github.com/dillonkearns/elm-pages
 Gren also offers replacements for many existing Elm packages. Many are forks or
 ports with APIs which remain close or identical to their Elm counterparts. Some may
 even be by the same author, but I haven't had the time to verify which ones yet.
 
-| Example Task                 | Elm Package      | Gren Alternative | API Similarity[^2] |
-|------------------------------|------------------|------------------|--------------------|
-| HTML generation              | [elm/html][]     | [gren-html][]    | Close or identical |
-| URL Parsing                  | [elm/url][]      | [gren-url][]     | Close or identical |
-| [ANSI escape codes][]        | [elm-ansi][]     | [gren-ansi][]    | Very different     |
-
+| Example Task                 | Elm Package       | Gren Alternative | API Similarity[^2] |
+|------------------------------|-------------------|------------------|--------------------|
+| HTML generation              | [elm/html][]      | [gren-html][]    | Close or identical |
+| URL Parsing                  | [elm/url][]       | [gren-url][]     | Close or identical |
+| [ANSI escape codes][]        | [elm-ansi][]      | [gren-ansi][]    | Very different     |
+| Full-stack Support           | [elm-pages][][^3] | [prettynice][]   | Differs            |
 
 To search for more packages, please see the following:
 
@@ -199,7 +198,8 @@ With a container, all of it's in already in the box:
 * [Gren][] itself
 * [Node.js][] to allow [prettynice][] and other web dev tools to run
 
+[not a first-class feature]: https://dev.to/eberfreitas/elm-in-the-server-or-anywhere-else-with-promises-5eoj
 
 [^1]: Okay, let's be real: maybe you shouldn't use this in production *quite* yet, but we all have ambitions!
 [^2]: API similarity was eyeballed without using AST comparison tools. Please [make a PR][] if this table needs corrections.
-
+[^3]: It's [not a first-class feature][].
