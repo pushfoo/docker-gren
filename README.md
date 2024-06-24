@@ -122,7 +122,7 @@ continue being an excellent frontend language.
 
 #### Gren Wants to Explore
 
-**TL;DR:** Gren devs love Elm's syntax so much we're freeing it from the browser
+**TL;DR:** Gren devs love many Elm ideas, so we're freeing them from the browser
 
 [make a PR]: https://github.com/pushfoo/docker-gren/pulls
 [ANSI escape codes]: https://en.wikipedia.org/wiki/ANSI_escape_code
@@ -134,9 +134,10 @@ continue being an excellent frontend language.
 > Please [make a PR][] if I got something wrong below.
 > I'm fairly new to both Elm and Gren, so the chances are high.
 
-Gren's community is currently young and small, but it's very passionate. Some of the
-available packages already implement features which Elm avoids by design. Even better,
-many of them seem surprisingly mature!
+[syntax and feature differences]: https://gren-lang.org/book/appendix/faq/#what-are-the-differences-between-gren-and-elm
+
+In addition to some [syntax and feature differences][], some Gren packages implement
+features which Elm avoids by design.
 
 | Task                         | Exemplary Gren Package  | Does Elm Have an Equivalent?          |
 |------------------------------|-------------------------|---------------------------------------|
@@ -152,9 +153,11 @@ many of them seem surprisingly mature!
 [gren-url]: https://packages.gren-lang.org/package/gren-lang/url/latest/
 [prettynice]: https://prettynice.dev/
 [elm-pages]: https://github.com/dillonkearns/elm-pages
+
 Gren also offers replacements for many existing Elm packages. Many are forks or
 ports with APIs which remain close or identical to their Elm counterparts. Some may
 even be by the same author, but I haven't had the time to verify which ones yet.
+
 
 | Example Task                 | Elm Package       | Gren Alternative | API Similarity[^2] |
 |------------------------------|-------------------|------------------|--------------------|
