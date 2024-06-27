@@ -1,5 +1,16 @@
 #!/bin/bash
 
+cat <<EOF >&2
+ERROR: Sorry, you're trying to run a WIP!
+
+Use the manually published builds for now:
+
+  docker run -it pushfoo/gren:latest gren repl
+
+Soon, though, soon...
+EOF
+exit 1
+
 Usage() {
 cat <<EOF
 
