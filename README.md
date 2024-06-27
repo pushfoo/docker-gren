@@ -28,10 +28,13 @@ Current features include:
 
 [docker-postinstall]: https://docs.docker.com/engine/install/linux-postinstall/
 [gren-learn]: https://gren-lang.org/book/
+[dockerhub]: https://hub.docker.com/r/pushfoo/gren
 
 1. Install [Docker][docker-overview]
 2. `docker run -it pushfoo/gren gren repl` to get a throwaway REPL
 3. [Start learning Gren!](gren-learn)
+
+View a full list of currently built versions at [hub.docker.com/r/pushfoo/gren][dockerhub].
 
 > [!TIP]
 > On Linux, you may also need to do one of the following:
